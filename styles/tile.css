@@ -1,0 +1,37 @@
+.tile {
+    flex-basis: 200px;
+    box-sizing: border-box;
+    height: 60px;
+    background-color: white;
+    border-radius: 15px;
+    padding: 34px 30px 34px 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: "Lora", "sans-serif";
+    font-weight: 500px;
+    visibility: hidden;
+    opacity: 0;
+    scale: 0.9;
+    transform: translateY(20px);
+    transition: all 0.25s;
+}
+
+.tile_visible {
+    visibility: visible;
+    opacity: 1;
+    scale: 1;
+    transform: translateY(0);
+
+}
+
+.tile__heading {
+    font-size: 16px;
+    font-weight: 600;
+    margin: 0px;
+}
+
+.tile__value {
+    font-size: 30px;
+
+}
